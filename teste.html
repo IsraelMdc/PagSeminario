@@ -3,97 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="I Seminário de Inteligência Artificial do Espírito Santo. Participe do evento nos dias 28 e 29 de maio de 2025.">
-    <meta name="keywords" content="Inteligência Artificial, Evento, Espírito Santo">
     <title>I Seminário de Inteligência Artificial do Espírito Santo</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        header {
-            background: #004d99;
-            color: #fff;
-            padding: 1.5rem 0;
-            text-align: center;
-        }
-        nav {
-            background: #e6e6e6;
-            padding: 1rem;
-            text-align: center;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #004d99;
-            font-weight: bold;
-        }
-        section {
-            padding: 2rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        h1, h2, h3 {
-            color: #004d99;
-        }
-        footer {
-            background: #004d99;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-            margin-top: 2rem;
-        }
-        .button {
-            display: inline-block;
-            background: #004d99;
-            color: #fff;
-            padding: 0.7rem 1.2rem;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 1rem;
-        }
-        .button:hover {
-            background: #003366;
-        }
-        @media (max-width: 768px) {
-            nav a {
-                display: block;
-                margin: 10px 0;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>I Seminário de Inteligência Artificial do Espírito Santo</h1>
-        <p>28 e 29 de maio de 2025</p>
-        <p>Instituto Federal do Espírito Santo - Campus Serra</p>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Evento</a></li>
+                    <li><a href="#">Página Inicial</a></li>
+                    <li><a href="#">Programação</a></li>
+                    <li><a href="#">Inscrições</a></li>
+                    <li><a href="#">Palestrantes</a></li>
+                    <li><a href="#">Local</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <a href="#programacao">Programação</a>
-        <a href="#inscricoes">Inscrições</a>
-        <a href="#palestrantes">Palestrantes</a>
-        <a href="#local">Local</a>
-    </nav>
-    <section id="programacao">
-        <h2>Programação</h2>
-        <h3>Dia 1</h3>
-        <p>Descrição breve sobre o dia 1.</p>
-        <h3>Dia 2</h3>
-        <p>Descrição breve sobre o dia 2.</p>
-        <h3>Dia 3</h3>
-        <p>Descrição breve sobre o dia 3.</p>
+
+    <!-- Hero Section -->
+    <section class="hero full-screen">
+        <div class="container">
+            <div class="hero-content">
+                <h2>28 e 29 de maio de 2025</h2>
+                <h1>I SEMINÁRIO DE INTELIGÊNCIA ARTIFICIAL DO ESPÍRITO SANTO</h1>
+                <p>INSTITUTO FEDERAL DO ESPÍRITO SANTO - CAMPUS SERRA</p>
+            </div>
+        </div>
     </section>
-    <section id="inscricoes">
-        <h2>Inscrições</h2>
-        <p>Para confirmar sua presença, preencha o formulário de inscrição.</p>
-        <a href="https://forms.example.com/inscricao" class="button">Inscreva-se aqui</a>
+
+    <!-- Seção Amarela -->
+    <section class="yellow-section full-screen">
+        <div class="container">
+            <h2>Ciclo de palestras - Paineis de discussão - Workshops</h2>
+            <button class="btn">Confirmar presença</button>
+            <div class="days-grid">
+                <div class="day-item">
+                    <h3>Dia 1</h3>
+                    <img src="https://via.placeholder.com/300x200" alt="Dia 1">
+                    <p>Descrição breve sobre o dia 1.</p>
+                </div>
+                <div class="day-item">
+                    <h3>Dia 2</h3>
+                    <img src="https://via.placeholder.com/300x200" alt="Dia 2">
+                    <p>Descrição breve sobre o dia 2.</p>
+                </div>
+                <div class="day-item">
+                    <h3>Dia 3</h3>
+                    <img src="https://via.placeholder.com/300x200" alt="Dia 3">
+                    <p>Descrição breve sobre o dia 3.</p>
+                </div>
+            </div>
+        </div>
     </section>
-    <footer>
-        <p>&copy; 2025 I Seminário de Inteligência Artificial do Espírito Santo</p>
+
+    <!-- Sidebar -->
+    <aside class="sidebar full-screen">
+        <div class="container">
+            <div class="text-block">
+                <p>A realização do I Seminário de Inteligência Artificial do Estado do Espírito Santo [...] (texto completo aqui)</p>
+            </div>
+            <img src="https://via.placeholder.com/400x300" alt="Imagem ilustrativa">
+            <p class="image-caption">Legenda sobre o que os participantes podem esperar do evento</p>
+        </div>
+    </aside>
+
+    <!-- Rodapé -->
+    <footer class="footer full-screen">
+        <div class="container">
+            <div class="footer-content">
+                <p>A realização do I Seminário de Inteligência Artificial do Estado do Espírito Santo [...] (texto completo aqui)</p>
+                <div class="social-icons">
+                    <a href="#"><img src="https://via.placeholder.com/30x30" alt="Facebook"></a>
+                    <a href="#"><img src="https://via.placeholder.com/30x30" alt="Twitter"></a>
+                    <a href="#"><img src="https://via.placeholder.com/30x30" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

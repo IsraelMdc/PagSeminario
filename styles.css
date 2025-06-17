@@ -59,7 +59,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mestre_%C3%81lvaro.jpg/1657px-Mestre_%C3%81lvaro.jpg') no-repeat center center/cover;
     color: #fff;
 }
 
@@ -107,6 +107,55 @@ body {
     margin-bottom: 0.5rem;
 }
 
+/* Seção de Palestrantes */
+.speakers-section {
+    background-color: #ffd700;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.speakers-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.speaker-item {
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border: 2px dashed #333;
+}
+
+.speaker-item img {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+/*Localização*/
+.location-sidebar {
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.location-sidebar h2 {
+    margin-bottom: 1rem;
+}
+
+.location-sidebar h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.image-gallery {
+    display: flex;
+    gap: 1rem;
+}
+
+.image-gallery img {
+    width: 100%;
+} 
+
 /* Sidebar */
 .sidebar {
     background-color: #fff;
@@ -145,5 +194,9 @@ body {
 @media (max-width: 768px) {
     .days-grid {
         grid-template-columns: 1fr;
+    }
+
+    .speakers-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }

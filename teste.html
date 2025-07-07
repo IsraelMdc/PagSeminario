@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I Seminário de Inteligência Artificial do Espírito Santo</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Cabeçalho -->
     <header class="header">
-        <div class="container">
+        <div class="nav container">
             <nav class="nav">
                 <ul>
-                    <li><a href="#">Evento</a></li>
-                    <li><a href="#">Página Inicial</a></li>
-                    <li><a href="#">Programação</a></li>
-                    <li><a href="#">Inscrições</a></li>
+                    <li><a href="teste.html" class="active">Página Inicial</a></li>
+                    <li><a href="a.html">Programação</a></li>
+                    <li><a href="#inscricoes">Inscrições</a></li>
                     <li><a href="#">Palestrantes</a></li>
                     <li><a href="#">Local</a></li>
                 </ul>
@@ -35,10 +34,14 @@
     </section>
 
     <!-- Seção Amarela -->
-    <section class="yellow-section full-screen">
+    <section class="yellow-section full-screen" id="inscricoes">
         <div class="container">
             <h2>Ciclo de palestras - Paineis de discussão - Workshops</h2>
-            <button class="btn">Confirmar presença</button>
+            <button class="btn">
+                <a href="https://docs.google.com/forms/d/1aoIrMTHbns5TtFES8cQzgG0yYuUz1b59rAE6-1qU_zo/edit">
+                    Confirmar Presença
+                </a>
+            </button>
             <div class="days-grid">
                 <div class="day-item">
                     <h3>Dia 1</h3>
@@ -60,15 +63,19 @@
     </section>
 
     <!-- Sidebar -->
-    <aside class="sidebar full-screen">
+    <section class="about-section">
         <div class="container">
             <div class="text-block">
-                <p>A realização do I Seminário de Inteligência Artificial do Estado do Espírito Santo [...] (texto completo aqui)</p>
+                <h2>A realização do I Seminário de Inteligência Artificial do Estado do Espírito Santo</h2>
+                <p>Para o Ifes, a organização do seminário reforça seu papel como instituição de referência no ensino, pesquisa e extensão. Ao promover um evento dessa magnitude, o Ifes não apenas demonstra seu comprometimento com a geração e disseminação de conhecimento, mas também fortalece sua conexão com a sociedade e com setores estratégicos, como a indústria, saúde, educação e gestão pública. O seminário também posiciona o campus Serra como um catalisador de inovações e um elo entre as demandas regionais e as tendências globais em IA.</p>
+                <p>A relevância técnico-científica do evento está no seu potencial para abordar desafios e oportunidades em áreas de grande impacto. A inteligência artificial possui aplicações transformadoras na indústria, otimizando processos produtivos e elevando a competitividade; no setor público, promovendo eficiência e transparência na gestão; na saúde, com avanços em diagnósticos e tratamentos personalizados; na educação, com ferramentas adaptativas e acessíveis; e em inúmeros outros campos. Assim, o seminário permitirá a discussão de soluções inovadoras que podem ser implementadas diretamente no contexto capixaba, promovendo avanços significativos em diferentes setores.</p>
+                <p>O impacto esperado inclui a ampliação da visibilidade da comunidade científica do Espírito Santo, a criação de redes de colaboração entre instituições locais e nacionais e o estímulo à formação de novos talentos em IA. Além disso, o seminário pode gerar benefícios de longo prazo, como o aumento do investimento em pesquisa e desenvolvimento na área e o fortalecimento de startups e empresas locais que utilizam tecnologias de IA.</p>
+                <p>Outro aspecto fundamental do evento é sua abordagem interdisciplinar e multidisciplinar. A inteligência artificial é, por natureza, uma área que conecta conhecimentos de computação, matemática, estatística, engenharia, ciências humanas e sociais, entre outros campos. Essa característica permite que o seminário reúna especialistas de diferentes áreas para discutir soluções integradas e holísticas, capazes de enfrentar problemas complexos de maneira inovadora. Portanto, o I Seminário de Inteligência Artificial do Estado do Espírito Santo é uma oportunidade ímpar para alavancar o desenvolvimento científico e tecnológico local, conectando a comunidade acadêmica, os setores produtivos e a sociedade em geral em torno de uma temática estratégica e de grande relevância para o futuro.</p>
             </div>
             <img src="https://via.placeholder.com/400x300" alt="Imagem ilustrativa">
             <p class="image-caption">Legenda sobre o que os participantes podem esperar do evento</p>
         </div>
-    </aside>
+    </section>
 
     <!-- Seção de Palestrantes -->
     <section class="speakers-section full-screen">
@@ -77,44 +84,22 @@
             <div class="speakers-grid">
                 <!-- Primeira linha de palestrantes -->
                 <div class="speaker-item">
-                    <img src="https://via.placeholder.com/200x200" alt="Palestrante 1">
+                    <img src="palestrantes/buldogue_ingles-p.webp" alt="Palestrante 1">
                     <h3>[Nome]</h3>
                     <p>Sobre esta pessoa</p>
                 </div>
                 <div class="speaker-item">
-                    <img src="https://via.placeholder.com/200x200" alt="Palestrante 2">
+                    <img src="palestrantes/imagem-vertical-de-foco-raso-de-um-filhote-de-cachorro-golden-retriever-fofo-sentado-em-um-gramado_181624-27259.avif" alt="Palestrante 2">
                     <h3>[Nome]</h3>
                     <p>Sobre esta pessoa</p>
                 </div>
                 <div class="speaker-item">
-                    <img src="https://via.placeholder.com/200x200" alt="Palestrante 3">
+                    <img src="palestrantes/istockphoto-1482199015-612x612.jpg" alt="Palestrante 3">
                     <h3>[Nome]</h3>
                     <p>Sobre esta pessoa</p>
                 </div>
                 <div class="speaker-item">
-                    <img src="https://via.placeholder.com/200x200" alt="Palestrante 4">
-                    <h3>[Nome]</h3>
-                    <p>Sobre esta pessoa</p>
-                </div>
-
-                <!-- Segunda linha de palestrantes -->
-                <div class="speaker-item">
-                    <img src="https://via.placeholder.com/200x200" alt="Palestrante 5">
-                    <h3>[Nome]</h3>
-                    <p>Sobre esta pessoa</p>
-                </div>
-                <div class="speaker-item">
-                    <img src="https://via.placeholder.com/200x200" alt="Palestrante 6">
-                    <h3>[Nome]</h3>
-                    <p>Sobre esta pessoa</p>
-                </div>
-                <div class="speaker-item">
-                    <img src="https://via.placeholder.com/200x200" alt="Palestrante 7">
-                    <h3>[Nome]</h3>
-                    <p>Sobre esta pessoa</p>
-                </div>
-                <div class="speaker-item">
-                    <img src="https://via.placeholder.com/200x200" alt="Palestrante 8">
+                    <img src="palestrantes/racas-cachorro-pequeno-3.jpg" alt="Palestrante 4">
                     <h3>[Nome]</h3>
                     <p>Sobre esta pessoa</p>
                 </div>
@@ -151,5 +136,49 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            // Adiciona a classe 'scrolled' ao header quando o scroll for maior que 50 pixels
+            // e a remove caso contrário.
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+        // Pega a parte da âncora (#) da URL
+        const hash = window.location.hash;
+
+        // Se existir uma âncora na URL...
+        if (hash) {
+            // Encontra o elemento na página que corresponde à âncora
+            const targetElement = document.querySelector(hash);
+
+            // Se o elemento for encontrado...
+            if (targetElement) {
+                // Rola suavemente até ele
+                // Usamos um pequeno timeout para garantir que a página esteja totalmente pronta
+                setTimeout(() => {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }, 100); // 100 milissegundos de espera
+
+                // set as active page
+                const navLinks = document.querySelectorAll('.nav a');
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === hash) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+        }
+    });
+    </script>
 </body>
 </html>
